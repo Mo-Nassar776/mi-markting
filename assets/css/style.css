@@ -112,6 +112,32 @@ header nav {
 .logo-text span {
     color: var(--primary);
 }
+/* Image logo styles */
+.logo-link {
+    display: inline-block;
+}
+.logo-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo-img {
+    height: 48px; /* slightly larger */
+    width: auto;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .logo-img {
+        height: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-img {
+        height: 36px;
+    }
+}
 .nav-links {
     display: flex;
     gap: 30px;
